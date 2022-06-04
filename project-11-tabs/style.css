@@ -35,7 +35,7 @@ body{
 .about-img{
  margin-bottom: 2rem;
  border-radius: 1rem;
- box-shadow: 3px 3px 10px rgba(0,0,0,0.6),-3px -3px 10px rgb(255, 255, 255,1);
+
 }
 
 .about-img img{
@@ -44,7 +44,7 @@ body{
  border-radius: 1rem;
  display: block;
  width: 100%;
-
+ box-shadow: 3px 3px 10px rgba(0,0,0,0.6),-3px -3px 10px rgb(255, 255, 255,1);
 }
 
 h2,h4{
@@ -82,6 +82,7 @@ p{
 @media screen and (min-width:992px) {
  .about-img{
   margin-bottom: 0;
+  
  }
 
  .about-center{
