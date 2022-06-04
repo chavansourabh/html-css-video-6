@@ -46,6 +46,7 @@ const scrollLInks = document.querySelectorAll(".scroll-link");
 scrollLInks.forEach((link) => {
   link.addEventListener("click", (e) => {
     e.preventDefault();
+
     const id = e.currentTarget.getAttribute("href").slice(1);
 
     const element = document.getElementById(id);
@@ -57,9 +58,10 @@ scrollLInks.forEach((link) => {
     if (!fixedNav) {
       position = position - navHeight;
     }
-    if (navHeight > 82) {
+    if (navHeight > 83) {
       position = position + containerHeight;
     }
+
     window.scrollTo({
       left: 0,
       top: position,
